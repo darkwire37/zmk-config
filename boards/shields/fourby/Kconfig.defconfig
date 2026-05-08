@@ -1,0 +1,6 @@
+if SHIELD_FOURBY
+
+config ZMK_KEYBOARD_NAME
+    default "fourby"
+
+endif

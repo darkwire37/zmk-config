@@ -1,0 +1,10 @@
+file_format: "1"
+id: fourby
+name: Fourby
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - fourby_left
+  - fourby_right
