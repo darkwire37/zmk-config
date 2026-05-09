@@ -1,6 +1,16 @@
-if SHIELD_FOURBY
+if SHIELD_FOURBY_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "fourby"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_FORUBY_LEFT || SHIELD_FOURBY_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif

@@ -1,2 +1,5 @@
-config SHIELD_FOURBY
-    def_bool $(shields_list_contains, fourby)
+config SHIELD_FOURBY_LEFT
+    def_bool $(shields_list_contains,fourby_left)
+
+config SHIELD_FOURBY_RIGHT
+    def_bool $(shields_list_contains,fourby_right)
